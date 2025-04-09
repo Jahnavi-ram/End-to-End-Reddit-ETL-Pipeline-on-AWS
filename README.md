@@ -1,5 +1,4 @@
-# End-to-End-Reddit-ETL-Pipeline-on-AWS
-
+# End-to-End Reddit ETL Pipeline on AWS
 
 This project implements a scalable ETL pipeline that extracts data from Reddit via its public API, processes it through orchestrated tasks, and loads it into Amazon Redshift for analytical querying. The pipeline utilizes a modern data stack including Apache Airflow, Celery, Docker, and key AWS services like S3, Glue, Athena, and Redshift.
 
@@ -39,5 +38,19 @@ This project implements a scalable ETL pipeline that extracts data from Reddit v
 
 ## 📁 Project Structure
 
-. ├── dags/ # Airflow DAG definitions ├── etls/ # Data transformation and load logic ├── pipelines/ # Pipeline control scripts ├── config/ # Configuration files and credentials ├── utils/ # Utility functions (e.g., S3 handler, logging) ├── assets/ # Visual assets like architecture diagrams ├── data/ # Local or intermediate data ├── Dockerfile # Environment build instructions ├── docker-compose.yml # Service orchestration ├── requirements.txt # Python dependencies └── README.md # Project documentation
+```
+.
+├── dags/                  # Airflow DAG definitions
+├── etls/                  # Data transformation and load logic
+├── pipelines/             # Pipeline control scripts
+├── config/                # Configuration files and credentials
+├── utils/                 # Utility functions (e.g., S3 handler, logging)
+├── assets/                # Visual assets like architecture diagrams
+├── data/                  # Local or intermediate data
+├── Dockerfile             # Environment build instructions
+├── docker-compose.yml     # Service orchestration
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+```
 
+---
