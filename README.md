@@ -36,21 +36,3 @@ This project implements a scalable ETL pipeline that extracts data from Reddit v
 
 ---
 
-## 📁 Project Structure
-
-```
-.
-├── dags/                  # Airflow DAG definitions
-├── etls/                  # Data transformation and load logic
-├── pipelines/             # Pipeline control scripts
-├── config/                # Configuration files and credentials
-├── utils/                 # Utility functions (e.g., S3 handler, logging)
-├── assets/                # Visual assets like architecture diagrams
-├── data/                  # Local or intermediate data
-├── Dockerfile             # Environment build instructions
-├── docker-compose.yml     # Service orchestration
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
-```
-
----
